@@ -1,0 +1,28 @@
+{
+  "keyphrase": "make a website for Salon Golden Hair pour Femme Oujda — Online Beauty Booking System",
+  "research_date": "2026-10-07",
+  "research_state": "COMPLETE",
+  "entity": {
+    "name": "Salon golden hair pour femme",
+    "city": "Oujda",
+    "address_area": "شارع الأمم المتحدة، Oujda, Morocco",
+    "confidence": "high"
+  },
+  "conflicts": {
+    "phone": ["+212 628478924", "+212 6 66 13 23 92"],
+    "hours": "source-conflicted",
+    "review_count": "changing/source-conflicted",
+    "service_catalog": "incomplete/secondary"
+  },
+  "architecture": {
+    "frontend": "React + Vite",
+    "runtime": "Cloudflare Pages/Workers",
+    "database": "Cloudflare D1",
+    "booking_authority": "server-side",
+    "payments": "out_of_scope"
+  },
+  "zero_paid_dependency": {
+    "cloudflare_free": "current free tier",
+    "google_maps_embed": "not selected because setup requires billing account"
+  }
+}

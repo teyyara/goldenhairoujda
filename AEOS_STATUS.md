@@ -20,14 +20,15 @@
 - State: **WAITING_FOR_CONTINUE**
 - Risk: R3
 - Objective completed: research dossier, Product Contract v1, capability manifest, assumption ledger, decision ledger, content provenance ledger, site-discovery record, AEOS state, and canonical rulebook identity.
-- Latest content checkpoint: `649f2fc996f1d0415102f4349ef7f6f334a85ea9`
+- Latest implementation checkpoint: `9f4c6de1ea8c993dfc1f474f7d14df113ee3bbd3`
 - Release status: **NOT CERTIFIED**
 
 ## Evidence status
 - Keyphrase reconnaissance: PASS
 - Research completion gate: COMPLETE
 - Repository identity/permissions: PASS
-- Existing application runtime: NOT YET AVAILABLE
+- Application structure check: PASS
+- Production Vite build: PASS (GitHub Actions run 37618345471)
 - Browser/accessibility/performance/security runtime validation: NOT YET AVAILABLE
 - Production validation: NOT STARTED
 
@@ -49,4 +50,4 @@ Build the first runnable mobile-first website shell and booking domain model wit
 ## Resumption rule
 A standalone **CONTINUE** advances exactly one additional AEOS loop. No automatic additional loop is started.
 
-Last updated: 2026-10-07T12:51:00+01:00
+Last updated: 2026-10-07T13:04:00+01:00

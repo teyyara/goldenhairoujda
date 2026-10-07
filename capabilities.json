@@ -1,0 +1,37 @@
+{
+  "research": {
+    "webResearch": true,
+    "currentWebVerification": true,
+    "imageSearch": true
+  },
+  "repository": {
+    "githubRead": true,
+    "githubWrite": true,
+    "githubPush": true,
+    "branchCreation": true
+  },
+  "runtime": {
+    "container": true,
+    "browserAutomation": "NOT_VERIFIED",
+    "playwright": "NOT_VERIFIED",
+    "chromium": "NOT_VERIFIED",
+    "firefox": "NOT_VERIFIED",
+    "webkit": "NOT_VERIFIED",
+    "realMobileDevice": false,
+    "screenReader": "NOT_VERIFIED"
+  },
+  "integrations": {
+    "cloudflareAccount": "NOT_PROVISIONED",
+    "d1Database": "NOT_PROVISIONED",
+    "bookingEndpoint": "NOT_PROVISIONED",
+    "googleCalendar": "NOT_PROVISIONED",
+    "googleMapsApi": false,
+    "whatsappBusinessApi": false,
+    "whatsappClickToChat": "TARGET_NUMBER_UNVERIFIED"
+  },
+  "release": {
+    "productionAccess": false,
+    "rollback": "NOT_PROVISIONED",
+    "continuousMonitoring": false
+  }
+}

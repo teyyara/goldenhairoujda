@@ -1,0 +1,36 @@
+{
+  "schema": "aeos-state-v1",
+  "runId": "AEOS-20261007-GHO-001",
+  "keyphrase": "make a website for Salon Golden Hair pour Femme Oujda — Online Beauty Booking System",
+  "rulebook": {
+    "version": "Autonomous Website Engineering Operating System v3",
+    "sha256": "492ce2fc9bbaec54258ea493fb9a71bf41e4857cee4ead19016e36f57932192e"
+  },
+  "research": {
+    "status": "COMPLETE",
+    "dossier": "evidence/research/keyphrase-dossier.md",
+    "jsonDossier": "evidence/research/keyphrase-dossier.json",
+    "timestamp": "2026-10-07T12:51:00+01:00"
+  },
+  "repository": {
+    "fullName": "teyyara/goldenhairoujda",
+    "branch": "main",
+    "latestKnownCheckpoint": "002f39abf4d25da23d3da4537cf2d9107b918781",
+    "latestKnownGood": null
+  },
+  "loop": {
+    "number": 1,
+    "candidate": "candidate-001-foundation",
+    "status": "WAITING_FOR_CONTINUE",
+    "risk": "R3"
+  },
+  "release": {
+    "status": "NOT_CERTIFIED"
+  },
+  "blocked": [
+    "Client-approved service catalog, prices and durations unavailable",
+    "Verified staff roster unavailable",
+    "Verified phone/WhatsApp target unavailable",
+    "Production booking datastore/deployment provisioning unavailable"
+  ]
+}

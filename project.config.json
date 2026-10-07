@@ -1,0 +1,34 @@
+{
+  "project": {
+    "name": "goldenhairoujda",
+    "displayName": "Salon Golden Hair pour Femme — Oujda",
+    "keyphrase": "make a website for Salon Golden Hair pour Femme Oujda — Online Beauty Booking System",
+    "class": "W1",
+    "locale": ["fr-MA", "ar-MA"],
+    "timezone": "Africa/Casablanca",
+    "primaryAudience": "women in Oujda seeking salon and beauty appointments",
+    "primaryIntent": "discover services and book an available appointment online"
+  },
+  "repository": {
+    "provider": "github",
+    "fullName": "teyyara/goldenhairoujda",
+    "defaultBranch": "main",
+    "progressionBranch": "main"
+  },
+  "policy": {
+    "paidDependenciesAllowed": false,
+    "secretsInGitAllowed": false,
+    "unsupportedBusinessClaimsAllowed": false,
+    "defaultAccessibilityTarget": "WCAG 2.2 AA"
+  },
+  "deployment": {
+    "target": "Cloudflare Pages/Workers",
+    "status": "NOT_PROVISIONED"
+  },
+  "booking": {
+    "architecture": "custom-server-side-booking",
+    "datastore": "Cloudflare D1",
+    "status": "NOT_PROVISIONED",
+    "payment": "out_of_scope"
+  }
+}
